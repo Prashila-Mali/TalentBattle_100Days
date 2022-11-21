@@ -10,14 +10,14 @@ class Quadrant
 		System.out.println("Enter Y coordinates: ");
 		int y=sc.nextInt();
 
-        if(x>0 && y>0)
-        {
-           System.out.println("This point lies in First Quadrant");
-        }
-        else if(x<0 && y>0)
-        {
-        	System.out.println("This point lies in second Quadrant");
-        }
+                if(x>0 && y>0)
+                {
+                       System.out.println("This point lies in First Quadrant");
+                }
+                else if(x<0 && y>0)
+                {
+                	System.out.println("This point lies in second Quadrant");
+                }
 		else if(x<0 && y<0)
 		{
 			System.out.println("This point lies in third Quadrant");
